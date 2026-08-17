@@ -1,0 +1,16 @@
+{
+  "name": "29-card-game-engine",
+  "version": "2.0.0",
+  "description": "Stateless-ish game engine for the 29 card game, plus the Ludo realtime engine mounted on the same process/port. Pure game logic; auth/users/chips live in PHP+MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  },
+  "license": "ISC"
+}
